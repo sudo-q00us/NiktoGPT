@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Nikto Analysis - Report</title>
+  <style>
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: #f6f8fb;
+      color: #0f172a;
+      padding: 30px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(15,23,42,0.07);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+    .meta {
+      color: #475569;
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+    .item {
+      border: 1px solid #e6eef8;
+      border-left: 6px solid #dbeafe;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(250,252,255,0.8));
+    }
+    .sev {
+      font-weight: 700;
+      padding: 6px 8px;
+      border-radius: 6px;
+      color: white;
+      display: inline-block;
+      font-size: 13px;
+    }
+    .sev-10 { background: #7f1d1d; }
+    .sev-8 { background: #b91c1c; }
+    .sev-6 { background: #ea580c; }
+    .sev-4 { background: #f59e0b; }
+    .sev-2 { background: #16a34a; }
+    .sev-0 { background: #6b7280; }
+    .title {
+      font-size: 18px;
+      margin: 0 0 6px;
+    }
+    .section {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+    .pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 10px;
+      border-radius: 6px;
+      overflow: auto;
+      font-family: monospace;
+      font-size: 13px;
+    }
+    .references a {
+      color: #2563eb;
+    }
+    .toc {
+      margin-bottom: 14px;
+    }
+    .toc a {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 6px 10px;
+      background: #f1f5f9;
+      border-radius: 999px;
+      color: #0f172a;
+      font-size: 13px;
+      text-decoration: none;
+      border: 1px solid #e2e8f0;
+    }
+    footer {
+      font-size: 12px;
+      color: #64748b;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Nikto Analysis</h1>
+    <div class="meta">Generated: 2025-10-07 12:00 UTC · Items: 1</div>
+    <div class="toc"><strong>Summary:</strong>
+      <a href="#FIND-001">Example Title (8)</a>
+    </div>
+
+    <div class="item" id="FIND-001">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div class="title">Example Title</div>
+          <div class="meta">ID: FIND-001 — CVSS: 7.5</div>
+        </div>
+        <div style="text-align:right">
+          <div class="sev sev-8">Severity: 8/10</div>
+          <div style="margin-top:6px;font-size:12px;color:#475569">Impact: Example impact summary...</div>
+        </div>
+      </div>
+      <div class="section"><strong>Description</strong>
+        <div class="pre">Example vulnerability description...</div>
+      </div>
+      <div class="section"><strong>Remediation</strong>
+        <div class="pre">Recommended fix or mitigation steps...</div>
+      </div>
+      <div class="section references"><strong>References</strong>
+        <ul>
+          <li><a href="https://example.com/advisory" target="_blank" rel="noopener">https://example.com/advisory</a></li>
+        </ul>
+      </div>
+      <div class="section"><strong>Raw text</strong>
+        <div class="pre">+ Some raw Nikto finding text here...</div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
