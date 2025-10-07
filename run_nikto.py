@@ -430,7 +430,6 @@ def generate_html_report(report_items: List[Dict[str, Any]], output_path: str, m
     <div class="meta">Generated: {now} · Items: {len(report_items)}</div>
     <div class="toc"><strong>Summary:</strong> {toc_html}</div>
     {"".join(items_html)}
-    <footer>Generated via AI model {MODEL_NAME}</footer>
   </div>
 </body>
 </html>
