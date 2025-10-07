@@ -52,7 +52,7 @@ Open the script run_nikto.py and edit these variables near the top:
    NIKTO_BIN = "/usr/bin/nikto"
    ```
 
-Set your OpenRouter API key via terminal:
+Set your OpenRouter API key:
    ```bash
    export OPENROUTER_API_KEY="your_openrouter_api_key"
    ```
@@ -95,11 +95,11 @@ If no authentication is required (internal SMTP server), leave those as None.
 
 ## 📁 Output
 
-```.log```: raw Nikto log
+Raw Nikto log: ```nikto_YYYYMMDD-HHMMSS.log```
 
-```.html```: GPT-analyzed report
+AI-enhanced report: ```nikto_YYYYMMDD-HHMMSS_ia_report.html```
 
-```.txt```: fallback plain report (if HTML fails)
+Original Nikto report (HTML or TXT fallback)
 
 All saved under the ```REPORT_DIR``` path.
 
@@ -108,6 +108,18 @@ All saved under the ```REPORT_DIR``` path.
    export OPENROUTER_API_KEY="sk-your-apikey"
    python3 run_nikto.py
    ```
+## 💡 Notes
+
+This script does not use a ```.env``` file. API keys must be passed via environment variables manually.
+
+The AI response format is strictly JSON — ensure the model remains compatible.
+
+The script will fallback to sending the raw log if no relevant findings are detected.
+
+## 🛡️ Disclaimer
+
+This tool is intended for authorized testing only. Do not scan targets without permission.
+
 ## 🛠 Troubleshooting
 
 Nikto not found? Edit ```NIKTO_BIN``` in the script.
