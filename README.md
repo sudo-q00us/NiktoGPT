@@ -130,3 +130,22 @@ API errors? Check your internet and ```OPENROUTER_API_KEY```.
 
 Email not sending? Try another SMTP server or test ```with use_ssl = True```.
 
+##
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://api.star-history.com/svg?repos=sudo-q00us/NiktoGPT&type=Date&theme=dark
+    "
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="
+      https://api.star-history.com/svg?repos=sudo-q00us/NiktoGPT&type=Date&theme=dark
+    "
+  />
+  <img
+    alt="Star History"
+    src="https://api.star-history.com/svg?repos=sudo-q00us/NiktoGPT&type=Date&theme=dark"
+  />
+</picture>
