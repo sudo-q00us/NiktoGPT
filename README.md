@@ -1,7 +1,6 @@
 <p align="center">
    <A href="https://github.com/sudo-q00us/NiktoGPT/issues"><img src="https://img.shields.io/github/issues/sudo-q00us/NiktoGPT"></A>
    <A href="https://github.com/sudo-q00us/NiktoGPT/issues?q=is%3Aissue%20state%3Aclosed"><img src="https://img.shields.io/github/issues-closed/sudo-q00us/NiktoGPT"></A>
-   <A href="https://github.com/sudo-q00us/NiktoGPT/releases"><img src="https://img.shields.io/github/downloads/sudo-q00us/NiktoGPT/total"></A>
 </p><BR>
 
 # NiktoGPT
