@@ -1,3 +1,9 @@
+<p align="center">
+   <A href="https://github.com/sudo-q00us/NiktoGPT/issues"><img src="https://img.shields.io/github/issues/sudo-q00us/NiktoGPT"></A>
+   <A href="https://github.com/sudo-q00us/NiktoGPT/issues?q=is%3Aissue%20state%3Aclosed"><img src="https://img.shields.io/github/issues-closed/sudo-q00us/NiktoGPT"></A>
+   <A href="https://github.com/sudo-q00us/NiktoGPT/releases"><img src="https://img.shields.io/github/downloads/sudo-q00us/NiktoGPT/total"></A>
+</p><BR>
+
 # NiktoGPT
 
 **NiktoGPT** is a Python automation tool that enhances the classic Nikto web vulnerability scanner by integrating AI analysis via the OpenRouter API (DeepSeek Chat v3.1). It runs Nikto, extracts relevant findings, analyzes them using GPT, generates a detailed HTML report, and can send the report by email.
